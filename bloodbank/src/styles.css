@@ -1,0 +1,275 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway:600|Source+Sans+Pro:400,900&display=swap');
+/* #upbar {
+	background-color:gray;
+	color: white !important;
+} */
+
+.material-icons {
+	vertical-align: middle;
+}
+
+
+.nav-link {
+	color: white !important;
+}
+
+/* .footer {
+	background-color:gray;
+	position: fixed;
+	color: white;
+	width: 100%;
+	bottom: 0;
+} */
+
+.navbar 
+            {
+                 background-color:#BF1515;
+            }
+            .button 
+            {
+                background-color: #BF1515;
+                    }
+            
+            .footer {
+                        height: 60px;
+                        position: relative;
+                        width: 100%;
+                        bottom: 0px;
+                        background-color: #BF1515;
+                        color: #FFFFFF;
+                    }
+                    .jumbotron{
+     width:100%;
+     height:10%;
+
+     }
+            header {
+                        height: 70px;
+                   }
+.icon-col{
+	color: white;
+}
+
+.tcol{
+	color:gold;
+	font-family:cursive;
+	
+}
+.ptop{
+	padding-top: 20mm;
+}
+
+.pad-bottom{
+	padding: 30%;
+}
+
+.card2{
+    /* position:fixed; */
+    top: 10%;
+    /* left: 62%; */
+    background-color: white;
+    /* opacity: 0.90; */
+    
+
+}
+.cardh{
+	height: 55rem;
+}
+
+.cardw{
+	width: 55rem;
+}
+
+.cardh1{
+	height: 75rem;
+}
+
+.cardw1{
+	width: 75rem;
+}
+
+.card3{
+    /* position:fixed; */
+    top: 15%;
+    /* left: 62%; */
+    background-color: white;
+    /* opacity: 0.90; */
+  
+
+}
+
+
+.pcol{
+	color:whitesmoke;
+	/* font-style: italic; */
+	font-family: cursive
+}
+.pad-b{
+	padding-bottom: 6mm;
+}
+
+.car-col{
+	color:yellowgreen
+}
+
+.card-wid{
+	width: 23rem;
+	
+}
+.marginb{
+	margin-bottom: 52%;
+}
+.invalid-feedback, .valid-feedback{
+	display:block;
+}
+
+.bck-img{
+	background-image: url("https://blood.kar.nic.in/img/redb.jpg");
+	height: auto;
+	width: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vertical-align{
+	vertical-align: middle;
+}
+
+.middle-align{
+	vertical-align: middle;
+}
+
+.pad-bot{
+	padding-bottom: 5%;
+}
+
+
+.bank-col{
+	color:white;
+}
+
+.price {
+	float: right;
+	color: brown;
+}
+
+.right {
+	color: blue;
+}
+
+.cart {
+	background-color: tomato;
+	color: white;
+}
+
+.right1 {
+	color: white;
+}
+
+.text-color {
+	color: brown;
+}
+
+.btn:hover {
+	color: white;
+}
+
+.launch {
+	font-size: 15px;
+}
+
+
+
+.color {
+	color: white;
+}
+
+.save:hover {
+	color: white;
+}
+
+.save {
+	background-color: tomato;
+	color: white;
+}
+
+.cartpr {
+	float: right;
+	color: brown;
+}
+
+.gray {
+	color: gray;
+}
+
+.big {
+	font-size: 25px;
+	color: black;
+}
+
+.edit .invalid-feedback {
+	display: block;
+}
+
+.sz
+{
+	width:50%;
+	color:black;
+	background-color: whitesmoke;
+	size:80%;
+}
+/* .card1{
+  
+    top: 15%;
+    left: 15%;
+    background-color: white;
+   
+    width: 30rem
+} */
+.button1 {border-radius: 12px;}
+
+/* .card2{
+   
+    top: 15%;
+    left: 62%;
+    background-color: white;
+  
+	width: 25rem;
+	
+
+}
+.card3{
+
+    top: 35%;
+    left: 62%;
+    background-color: white;
+  
+	width: 25rem;
+	
+
+} */
+
+
+
+.bck-img1{
+	background-image: url("https://blood.kar.nic.in/img/redb.jpg");
+	/* height: 200rem;
+	width: 100%; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.textcol{
+	color: #FFFFFF;
+}
+
+.newcol{
+	color:yellow;
+}
+
+.card-width{
+	width: 100%;
+}

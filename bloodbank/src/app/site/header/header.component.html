@@ -1,0 +1,68 @@
+<header>
+<nav class="navbar navbar-expand-md  fixed-top pad-b ">
+  <!-- <div class="container-fluid"> -->
+        <div class="navbar-header">
+            <i class="material-icons brand-logo middle-align icon-col">local_hospital</i>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="navbar-brand vertical-align bank-col " href="">Blood Bank</a>
+            <!-- <h1>hTrack</h1> -->
+        </div>
+                      <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler  navbar-dark" type="button" data-toggle="collapse" data-target="#bank">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+       
+              <div class="collapse navbar-collapse" id="bank">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item" > 
+                <a class="nav-link" routerLink="home">
+                  <span class=" bank-col">Home</span>
+                </a>
+              </li>
+
+            
+            <!-- <li class="nav-item" *ngIf="isAuthenticated" >
+              <a class="nav-link bank-col" routerLink="login">Login</a>
+            </li> -->
+
+            <!-- <li class="nav-item" >
+              <a class="nav-link bank-col" routerLink="signup">Registeration</a>
+            </li> -->
+                <!-- <li class="nav-item" >
+                    <a class="nav-link" routerLink="Login" href="" (click)="onLogOut()" >
+                        <span class="veralign">Logout</span>
+                    </a>
+                </li> -->
+                <li class="nav-item" *ngIf=" this.authService.loggedIn">
+                    <a class="nav-link" routerLink="search">Menu</a>
+                </li>
+                <li class="nav-item" *ngIf=" !this.authService.loggedIn">
+                    <a class="nav-link" routerLink="signup">Registeration</a>
+                </li>
+                <li class="nav-item" *ngIf=" !this.authService.loggedIn">
+                  <a class="nav-link" routerLink="login">Login</a>
+                </li>
+                    <li class="nav-item" *ngIf=" this.authService.loggedIn">
+                        <a class="nav-link" routerLink="Login" href="" (click)="onLogOut()" >
+                            <span class="veralign">Logout</span>
+                        </a>
+                    </li>
+            </ul>
+              <!-- <li class="nav-item" *ngIf="isAuthenticated() && !isAdmin()">
+                  <a class="nav-link" routerLink="cart">
+                      <span class="veralign">Cart</span>
+                  </a>
+              </li>
+              <li class="nav-item" *ngIf="isAuthenticated()">
+                <a class="nav-link" routerLink="" >
+                    <i class="material-icons nav-icon-size">person</i>
+                    <span class="veralign">{{getUser().firstName}} {{getUser().lastName}}</span>
+                </a>
+            </li> -->
+           
+            <!-- </ul> -->
+        </div>
+  <!-- </div> -->
+ 
+</nav>
+</header>
